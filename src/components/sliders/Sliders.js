@@ -1,7 +1,7 @@
 import React, { useState ,   useEffect} from "react";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
-import data from "./data"
-import './sliders.css'
+import data from "./data";
+import './sliders.css';
 
 function Sliders (){
 
@@ -14,13 +14,13 @@ function Sliders (){
 
       if(currentIndex < 0  ){
       setCurrentIndex (lastIndex)
-      }
+      };
 
       if(currentIndex > lastIndex  ){
       setCurrentIndex (0)
-      }
+      };
 
-  }, [currentIndex, people])
+  }, [currentIndex, people]);
 
   return(
     <section className="slider-section" >

@@ -1,4 +1,4 @@
-import "./tabs.css"
+import "./tabs.css";
 
 
 const TabInfoThree = ({activeTab})=>{

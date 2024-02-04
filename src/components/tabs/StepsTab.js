@@ -7,7 +7,7 @@ import TabInfoThree from "./TabInfoThree";
 import TabsCard from "./TabsCard";
 import TabInfoFour from "./TabInfoFour";
 import TabInfoFive from "./TabInfoFIve";
-import "./tabs.css"
+import "./tabs.css";
 import TabInfoStart from "./TabInfoStart ";
 
 

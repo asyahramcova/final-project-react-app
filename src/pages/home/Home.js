@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Header from "../../components/header/Header";
-import "./home.css"
+import "./home.css";
 
 import image_idea from "./../../accets/images/idea.jpg";
 import Modal from "../../components/modalForm/Modal";

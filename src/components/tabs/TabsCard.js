@@ -1,5 +1,5 @@
 import TabItem from "./TabItem";
-import "./tabs.css"
+import "./tabs.css";
 
 const TabsCard = ({setActiveTab}) =>{
 

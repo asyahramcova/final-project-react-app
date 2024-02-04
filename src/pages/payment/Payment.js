@@ -1,4 +1,4 @@
-import "./payment.css"
+import "./payment.css";
 
 const Payment = ()=>{
 

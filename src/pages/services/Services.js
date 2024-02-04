@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import Modal from "../../components/modalForm/Modal";
 import Forma from "../../components/form/Forma";
 import {Link} from "react-router-dom";
-import "./services.css"
+import "./services.css";
 
 import StepsTab from "../../components/tabs/StepsTab";
 
- const Services = () => {
+  const Services = () => {
 
   const [modalActive, setModalActive] = useState(false);
+  
   return(
 
       <main className="services-container"  >
@@ -70,15 +71,10 @@ import StepsTab from "../../components/tabs/StepsTab";
               <button  className="payment-btn" >  <Link to="/payment">Способы оплаты </Link>  </button> 
             </div>
           </div>
-          
-
         </div>
-
-
       </section>   
-
   </main>
-
- )
+)
 };
+
 export default Services;

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./form.css";
 
-const Forma= () =>{
+const Forma = () =>{
 
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
@@ -21,7 +21,7 @@ const Forma= () =>{
     else {
       setFormValid(true)
     }
-  }, [nameError, numberError])
+  }, [nameError, numberError]);
 
     const blurHandle = (e) =>{
     switch (e.target.name){
@@ -33,7 +33,7 @@ const Forma= () =>{
         break   
         default:
     }
-  }
+  };
 
 
   const nameHandle = (e) =>{
@@ -45,7 +45,7 @@ const Forma= () =>{
     else{
       setNameError("")
     }
-  }
+  };
 
 const numberHandle = (e) =>{
     setNumber(e.target.value)
@@ -56,7 +56,7 @@ const numberHandle = (e) =>{
     else{
       setNumberError("")
     }
-  }
+  };
 
     return(
       <div className="form-wrapper">
