@@ -17,9 +17,7 @@
     --light: #EEEEEE;
     --yellow:#ffe900;
     --light-blue: #3bace8;
-    --title-font: font-family: "Poppins";
-    --section-title-font: font-family: "Ubuntu";
-    --text-font: font-family: "Nunito Sans";
+
     }
 
 
@@ -78,15 +76,15 @@ a{
   0% {
     -webkit-transform: scale(0.8, 0.8);
     transform: scale(0.8, 0.8);
-  }
+  };
   50% {
     -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
-  }
+  };
   100% {
     -webkit-transform: scale(0.8, 0.8);
     transform: scale(0.8, 0.8);
-  }
+  };
 }
 
 .modal-button:hover{
