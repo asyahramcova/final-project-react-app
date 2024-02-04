@@ -1,38 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+:root {
+    --main-color: #FBF9F1;
+    --dark: #454545;
+    --blue: #7077A1;
+    --accent: #FF6000;
+    --light: #EEEEEE;
+    --yellow:#ffe900;
+    --light-blue: #3bace8;
+    --title-font: font-family: "Poppins";
+    --section-title-font: font-family: "Ubuntu"f;
+    --text-font: font-family: "Nunito Sans";
+    }
+
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    background-color: var(--main-color);
+    min-height: 100%;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  p, h3, h4{
+    letter-spacing: 1.1px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  margin-top: 12%;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-button{
+  width: 200px;
+  background-color: var(--yellow);
+  color: black;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-family: var(--section-title-font);
+  font-size: 20px;
+  font-weight: 800;
+  position:fixed;
+  right: 4vw;
+  top: 16vh;
+ -webkit-animation: pulsing 3s infinite;
+  animation: pulsing 4s infinite;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8)
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
   }
 }
+
+.modal-button:hover{
+  transform: scale(1.1);
+  transition: .4s linear;
+  box-shadow: 0px 5px 39px 17px rgba(130, 136, 140, 0.53);
+
+}
+
+  @media screen and (max-width: 1200px) {
+  .modal-button{
+      right: 4vw;
+      top: 14vh;
+  }
+
+  }
+
+
+  @media screen and (max-width: 992px) {
+    .modal-button{
+      right: 2.5vw;
+      top: 13vh;
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+    .modal-button{
+        width: 160px;
+        padding: 8px;
+        font-size: 15px;
+        right: 1.9vw;
+        top: 10vh;
+      
+    }
+  }
+
+
+  @media screen and (max-width: 576px) {
+    .modal-button{
+      width: 160px;
+      padding: 3px;
+      font-size: 14px;
+      left: 1vw;
+      top: 2vh;
+      z-index:1000;
+  }
+  }
+
+  
+

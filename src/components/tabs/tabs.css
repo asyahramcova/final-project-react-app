@@ -1,0 +1,129 @@
+:root {
+  --box-shadow: hsl(220, 7.32%, 91.96%);
+}
+.container{
+  margin: 8%  auto 10%;
+  width: 80vw;
+  height: 40vh;
+}
+
+.tabs-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blue);
+  border:none;
+  min-width: 80vw;
+  min-height: 100%;
+ 
+}
+
+.tab-container{
+  width:100%;
+  min-height:100%;
+  margin: 0 auto;
+
+  }
+
+  .active-tab{
+   background-color: rgb(255,233,0);
+   box-shadow: 0px 5px 10px 2px rgba(34, 34, 34, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem .5rem;
+    min-height: 100%;
+    width:100%;
+  }
+
+.tabs-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark);
+
+}
+.tabs-start-heading{
+  color: var(--light);
+  font-size: 4rem;
+}
+.tabs-card-container{
+  display: flex;
+  text-align: center;
+  width:100%;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.btn-tabs{
+  flex:1;
+  text-align: center;
+  padding: 0.8rem 2.5rem;
+  cursor: pointer; 
+  align-items: center;
+  gap: 0.5rem;
+border:none;
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  font-size: clamp(16px, 1.6vw, 50px);
+  background-color: var(--light);
+}
+
+.btn-tabs:hover{
+
+  background-color: var(--blue);
+  transition: all .8s;
+  border-radius:  10px  10px   0 0;
+}
+
+.btn-tabs:focus{
+    background-color: var(--yellow);
+  border-radius:  10px  10px   0 0;
+}
+
+.tabs-item-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem .5rem;
+  height: 100%;
+  width:100%;
+}
+
+.tab-content{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 80%;
+  padding: 0rem 1rem;
+}
+
+.tabs-text{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 2.2vw;
+  color:var(--dark);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+ 
+}
+
+.connect-button{
+  position: absolute;
+  bottom:12%;
+
+}
+
+@media screen and (max-width:576px) {
+  .tabs-start-heading{
+      font-size: 2rem;
+     text-align: center;
+  }
+  .tabs-text{
+     font-size: 3vw;
+  
+  }
+}

@@ -1,0 +1,168 @@
+.home-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.section-one-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 8%;
+  font-size: 3vw;
+  font-family: "Ubuntu", sans-serif;
+  color:var(--dark);
+}
+
+.home-section-advant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+  margin:  15% auto 15%;
+}
+
+.section-one{
+  display: flex;
+  justify-content: center;
+}
+
+.create-line {
+  width: 70%;
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: var(--light);
+}
+
+.section-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--dark);
+
+  }
+  
+
+
+.section-card-text{
+  margin:3% 0 0;
+}
+
+.section-card-text h4{
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+} 
+  .section-card-text p{
+  font-size: 1.4rem;
+} 
+  
+.home-section-info{
+    display: flex;
+    align-items:center;
+    padding:4%;
+    border-radius: 40px;
+    background-color: #ffc500;
+    color: var(--dark);
+    width: 85%;
+    height: 80vh;
+    margin: 5vh;
+  
+ }
+
+.section-img{
+    width: 65%;
+}
+
+.home-section-info-text{ 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+  padding: 10% 20px;
+  gap:20px;
+  background-color: #fff;
+  border-radius: 40px;
+}
+
+.home-section-info-text{
+  font-size: 2vw;
+  font-weight: 600;
+}
+.home-section-info-text p{
+  align-self: flex-end ;
+}
+.author{
+  font-size: 1.8vw;
+  font-weight: 400;
+}
+
+
+@media (max-width: 960px) {
+
+  .section-one {
+    flex-direction: column;
+  }
+
+    .create-line{
+      display:none;
+    }
+
+    .home-section-info{
+      flex-direction: column;
+      width: 100vw;
+      height:40%;
+      border-radius:0;
+    }
+    
+    .home-section-info-text{
+      width: 80%;
+      height:40%;
+      padding:40px;
+    }
+
+    .section-img{
+   display:none;
+}
+}
+@media (max-width: 480px){
+  .section-one{
+    flex-direction: column;
+}
+
+.create-line {
+  display: none;
+}
+
+  .home-section-info{
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    border-radius:0;
+  }
+    
+    .home-section-info-text{
+      width: 60%;
+      margin-top: 2rem;
+      
+    }
+
+    .section-img{
+    width: 80%;
+}
+}
+
+ 
+
+
+
+
+

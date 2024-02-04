@@ -1,0 +1,71 @@
+/* Header */
+.header {
+	padding:  0;
+  height: 100vh;
+  width: 100vw;
+	display: flex;
+	background-image: url('./../../accets/images/2.jpg');
+	background-repeat: no-repeat;
+  background-size: cover;
+	background-position:center;
+	color: var(--header-text);
+
+}
+
+.header-wrapper {
+	display: flex;
+
+	height: 95%;
+	width: 90%;
+	margin: 4% 0 0 2% ;
+
+}
+
+.header-title-div{
+	display: flex;
+	justify-self:center;
+	Flex-wrap: wrap;
+	width:40%;
+}
+
+.header-title span{
+	color:var(--light-blue);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+
+.header-title {
+	color:var(--dark);
+	font-family: "Ubuntu", sans-serif;
+	font-size: 7rem;
+	font-weight: 900;
+  word-spacing: 10%;
+}
+
+@media screen and (max-width: 760px) {
+.header-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 95%;
+	width: 90%;
+}
+
+.header-title{
+	font-size: 4.4rem;
+	font-weight: 900;
+}
+.header-title-div{
+	width:90%;
+}
+}
+
+@media screen and (max-width: 576px){
+.header-title{
+	font-size: 3.5rem;
+	font-weight: 900;
+}
+.header-title-div{
+	width:80%;
+}
+}

@@ -1,0 +1,181 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:var(--dark);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+nav .title {
+  font-family: "Poppins", sans-serif;  
+  font-style: normal;
+  font-size: 3rem;
+  margin: 1rem 0 1rem 4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
+nav .title:hover{
+	color: var(--yellow);
+  transform: scale(1.2) ;
+  transition: linear .3s;
+}
+
+
+.nav-link{
+  display: flex;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover{
+  color: var(--accent);
+  transition: linear .3s;
+  cursor: pointer;
+}
+
+.nav-link:focus{
+  color: var(--yellow);
+}
+
+nav ul {
+  justify-self: flex-end;
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  padding: 0 4vw;
+  gap: 2rem;
+}
+
+nav ul Link {
+  list-style: none;
+  
+}
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 1.7rem;
+    cursor: pointer;
+}
+
+nav .menu span {
+  height: 0.3rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.2rem;
+}
+@media screen and (max-width: 992px){
+  nav .title{
+      font-size: 2.5rem;
+  }
+
+  .nav-link{
+    font-size: 1.8rem;
+  }
+    nav ul{
+    padding: 0 2vw;
+    gap: .8rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+    nav .title{
+      font-size: 2rem;
+  }
+
+  .nav-link{
+    font-size: 1.4rem;
+  }
+
+  nav ul{
+    padding: 0 2vw;
+    gap: 1rem;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+  nav .title{
+    font-size: 1.5rem;
+  }
+
+  .nav-link{
+    font-size: 1.4rem;
+  }
+ 
+  .nav ul{
+    padding: 0 ; 
+  }
+
+  .nav-link{
+    margin-left: .5rem;
+    font-weight: bold;
+    font-size:1rem;
+}
+}
+
+@media screen and (max-width: 545px) {
+
+  nav .title {
+    font-size: 1.2rem;
+  }
+  nav .menu {
+    
+    display: flex;
+    width: 2rem;
+    height:1.7rem;
+    
+}
+  nav .menu span {
+  height: 0.2rem;
+}
+
+  nav {
+    z-index: 100;
+    position: fixed;
+    position: relative;
+    flex-direction: column;
+  }
+    
+  nav ul {
+    justify-content: center;
+    align-self: flex-end;
+    margin-top: 3.7rem;
+    display: none;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    padding: 0 0.5rem;
+    border-radius: 0 0 0 20px ;
+  }   
+
+  nav ul.open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(41, 36, 36, 0.4);
+  }
+
+  .nav-link{
+    color: var(--light);
+    font-weight: bold;
+    font-size:1.1rem;
+    margin-left:1rem;
+}
+  
+}
