@@ -152,7 +152,7 @@ article.nextSlide {
 }
 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .sliders-section {
     width: 70vw;
   }
@@ -181,7 +181,7 @@ article.nextSlide {
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .sliders-section {
     width: 100%;
   }
@@ -197,10 +197,12 @@ article h4{
     height: 150px;
 }
 .person-title{
-  font-size: 1.2rem;}
-  .prev,
+  font-size: 1.2rem;
+}
+
+.prev,
 .next{
-   width: 1.5rem;
+  width: 1.5rem;
   height: 1.5rem;
 }
 

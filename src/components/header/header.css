@@ -13,11 +13,9 @@
 
 .header-wrapper {
 	display: flex;
-
 	height: 95%;
 	width: 90%;
 	margin: 4% 0 0 2% ;
-
 }
 
 .header-title-div{

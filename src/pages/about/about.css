@@ -6,14 +6,12 @@
   width: 100%;
 }
 
-
 .about-section-one{
   margin-top: 0;
   display: flex;
   justify-content: center;
   height:100%;
   width: 100%;
- 
 }
 
 .about-context-one{
@@ -219,13 +217,13 @@
 
   .about-text-title{
     padding:10px;
-  font-size: 2.4rem;
-  line-height: 110%;
-  font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 110%;
+    font-weight: 600;
 }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px){
 
 .about-context-one{
   background-size: contain;
@@ -265,7 +263,7 @@
 
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width: 576px){
 .about-context-one{
   background-size: cover;
   height: 30vh;
@@ -299,8 +297,8 @@
 
 }
 .about-section-three-block-text li{
-    width:105%;
-     font-size: 1rem;
+  width:105%;
+  font-size: 1rem;
 }
 }
 

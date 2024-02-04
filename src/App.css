@@ -17,7 +17,7 @@
     --yellow:#ffe900;
     --light-blue: #3bace8;
     --title-font: font-family: "Poppins";
-    --section-title-font: font-family: "Ubuntu"f;
+    --section-title-font: font-family: "Ubuntu";
     --text-font: font-family: "Nunito Sans";
     }
 
@@ -68,7 +68,7 @@ a{
   position:fixed;
   right: 4vw;
   top: 16vh;
- -webkit-animation: pulsing 3s infinite;
+  -webkit-animation: pulsing 3s infinite;
   animation: pulsing 4s infinite;
 
 
