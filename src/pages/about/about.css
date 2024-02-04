@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-/*section one*/
+
 .about-section-one{
   margin-top: 0;
   display: flex;
@@ -27,7 +27,7 @@
 }
 
 
-/*section two*/
+
 .about-section-two{
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@
   font-family: "Poppins";
 }
 
-/*section statistics*/
+
 .about-section-statistics{
   margin-top: 10%;
   display: flex;
@@ -199,7 +199,7 @@
   }
 
   .about-section-three-block-text li{
-     font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width:992px){
