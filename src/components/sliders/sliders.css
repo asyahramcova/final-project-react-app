@@ -3,7 +3,6 @@
   width: 60vw;
   margin: 5rem 0;
   max-width: 80vw;
-  z-index: -100;
 }
 
 .slider-container {
@@ -75,7 +74,7 @@ article h4 {
   margin-top: 3rem;
   font-size: 1.4rem;
   line-height: 2;
-  color: var(--dark);
+  color: var(--dark)
 }
 
 .icon {
@@ -153,7 +152,7 @@ article.nextSlide {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width:992px) {
   .sliders-section {
     width: 70vw;
   }
@@ -162,7 +161,7 @@ article.nextSlide {
 }
 .person-img{
     width: 150px;
-    height: 0px;
+    height: 150px;
 }
 }
 
@@ -182,7 +181,7 @@ article.nextSlide {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width:576px) {
   .sliders-section {
     width: 100%;
   }
@@ -198,12 +197,10 @@ article h4{
     height: 150px;
 }
 .person-title{
-  font-size: 1.2rem;
-}
-
-.prev,
+  font-size: 1.2rem;}
+  .prev,
 .next{
-  width: 1.5rem;
+   width: 1.5rem;
   height: 1.5rem;
 }
 
