@@ -6,11 +6,9 @@ import "./Navbar.css";
 
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const menuRef = useRef(null);
-
-  UseClickOut(menuRef, () =>{
+const [menuOpen, setMenuOpen] = useState(false);
+const menuRef = useRef(null);
+UseClickOut(menuRef, () =>{
   setMenuOpen(false);
  });
 
@@ -26,7 +24,8 @@ const Navbar = () => {
         <ul className={menuOpen ? "open" : ""} ref = {menuRef}>
           <Link to="/about" className="nav-link" >О нас</Link>
           <Link to="/services" className="nav-link" >Услуги</Link> 
-          <Link to="/contacts" className="nav-link" >Контакты</Link>   
+          <Link to="/contacts" className="nav-link" >Контакты</Link> 
+      
         </ul>
       </nav>
     </>

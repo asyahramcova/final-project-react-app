@@ -6,6 +6,7 @@ nav {
   color: white;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 nav .title {
@@ -128,13 +129,14 @@ nav .menu span {
 }
 }
 
-@media screen and (max-width: 545px) {
+@media screen and (max-width: 576px) {
 
   nav .title {
     font-size: 1.2rem;
   }
+
+
   nav .menu {
-    
     display: flex;
     width: 2rem;
     height:1.7rem;
@@ -146,8 +148,7 @@ nav .menu span {
 
   nav {
     z-index: 100;
-    position: fixed;
-    position: relative;
+ 
     flex-direction: column;
   }
     
