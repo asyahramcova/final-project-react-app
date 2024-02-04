@@ -19,6 +19,7 @@ return (
           <Link to="/services" >Программы</Link> 
           <Link to="/steps" >Этапы работы</Link> 
           <Link to="/services" >Помощь в переезде</Link> 
+          <Link to="/payment">Способы оплаты </Link>  
     
         </div>
 

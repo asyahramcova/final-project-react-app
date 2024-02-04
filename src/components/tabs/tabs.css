@@ -112,6 +112,17 @@
 
 }
 
+@media screen and (max-width: 768px) {
+  .tabs-start-heading{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .tabs-text{
+    font-size: 3vw;
+  
+  }
+}
+
 @media screen and (max-width: 576px) {
   .tabs-start-heading{
     font-size: 2rem;
