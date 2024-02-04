@@ -108,8 +108,6 @@ nav .menu span {
   }
 }
 
-
-
 @media screen and (max-width: 576px) {
   nav .title{
     font-size: 1.5rem;

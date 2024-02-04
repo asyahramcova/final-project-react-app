@@ -13,12 +13,8 @@ const TabsCard = ({setActiveTab}) =>{
           tab = {tab}
           index = {index}
           setActiveTab = {setActiveTab}
-      
-        />
-      )
-      )
-
-      }
+      />
+      ))}
     </div>
   )
 

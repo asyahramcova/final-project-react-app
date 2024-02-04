@@ -60,7 +60,7 @@
   gap: 0.5rem;
   border:none;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu";
   font-weight: 900;
   font-size: clamp(16px, 1.6vw, 50px);
   background-color: var(--light);
@@ -70,12 +70,12 @@
 
   background-color: var(--blue);
   transition: all .8s;
-  border-radius:  10px  10px   0 0;
+  border-radius:  10px 10px 0 0;
 }
 
 .btn-tabs:focus{
   background-color: var(--yellow);
-  border-radius:  10px  10px   0 0;
+  border-radius:  10px 10px 0 0;
 }
 
 .tabs-item-container{
@@ -102,9 +102,8 @@
   text-align: center;
   font-size: 2.2vw;
   color:var(--dark);
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans";
   font-weight: 600;
- 
 }
 
 .connect-button{

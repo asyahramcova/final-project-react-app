@@ -5,7 +5,7 @@ import './sliders.css';
 
 function Sliders (){
 
-  const [people, setPeople] = useState(data);
+  const [people] = useState(data);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() =>{

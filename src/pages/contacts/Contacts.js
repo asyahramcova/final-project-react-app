@@ -7,13 +7,10 @@ const Contacts = () => {
   return (
     <>
       <main className="contacts-container"  >
-      <div className="contacts-context">
-
-      <Forma/>
-      </div>
-
-
-    </main>
+        <div className="contacts-context">
+          <Forma/>
+        </div>
+      </main>
     </>
   )
 };

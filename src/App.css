@@ -71,8 +71,6 @@ a{
   top: 16vh;
   -webkit-animation: pulsing 3s infinite;
   animation: pulsing 4s infinite;
-
-
 }
 
 
@@ -103,7 +101,6 @@ a{
       right: 4vw;
       top: 14vh;
   }
-
   }
 
 
@@ -116,13 +113,12 @@ a{
 
   @media screen and (max-width: 768px) {
     .modal-button{
-        width: 160px;
-        padding: 8px;
-        font-size: 15px;
-        right: 1.9vw;
-        top: 10vh;
-      
-    }
+      width: 160px;
+      padding: 8px;
+      font-size: 15px;
+      right: 1.9vw;
+      top: 10vh;
+  }
   }
 
 
