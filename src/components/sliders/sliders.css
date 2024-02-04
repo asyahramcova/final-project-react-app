@@ -3,6 +3,7 @@
   width: 60vw;
   margin: 5rem 0;
   max-width: 80vw;
+  z-index: -100;
 }
 
 .slider-container {

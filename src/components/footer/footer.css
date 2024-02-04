@@ -137,8 +137,10 @@ footer{
 @media screen and (max-width: 576px) {
 
 footer{
-  height: 80vh;
-  padding:2rem;
+  height: 50vh;
+  padding:1rem;
+  justify-content: center;
+  align-items: center;
 }
 .sb-footer-heading h4{
   font-size: 2rem;

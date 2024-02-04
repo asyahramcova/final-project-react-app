@@ -104,14 +104,13 @@ return (
   </section>
 
   <section className="home-section-info">
-    <div >
+    <div className="home-section-info-img" >
       <img  className="section-img" alt = "section-img" src = {image_idea}/>
     </div>
     <div  className="home-section-info-text">
- 
       <p>"Вне зависимости от того, о чем вы мечтаете — начинайте над этим работать! И тогда в вашей жизни начнут происходить самые настоящие чудеса!"</p>
       <p className="author">Иоганн Вольфганг фон Гёте</p>
-          </div>
+    </div>
   </section>
 
 
