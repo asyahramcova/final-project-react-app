@@ -113,4 +113,15 @@
 .payment-btn{
  display:none;
 }
+.services-context{
+   width:90%;
+   height: 100%;
+}
+.services-text-block{
+  display: flex;
+  height: 100%;
+  margin: 1%;
+   width:90%;
+}
+
 }
