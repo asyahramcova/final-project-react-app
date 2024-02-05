@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/navbar/Navbar";
@@ -19,7 +19,7 @@ function App() {
       <ScrollToTop/>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="*" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path ="/services" element ={<Services/>}/>
           <Route path="/contacts" element={<Contacts/>} />
